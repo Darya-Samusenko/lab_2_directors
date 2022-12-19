@@ -45,7 +45,7 @@ export default function Writers(){
             <section style = {{
                 backgroundImage: 'url(' + writersBackground + ')',
             }}>
-                <h1>{t('Writers')}</h1>
+                <h1>{t('Directors')}</h1>
                 <div className = 'writersContainer'>
                     {writerBlock(t('kupala'), '(1882 - 1942)', kupalaImg, 'Kupala')}
                     {writerBlock(t('kolas'), '(1882 - 1956)', kolasImg, 'Kolas')}

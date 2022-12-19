@@ -40,7 +40,7 @@ export default function Header(){
                                 navbarScroll
                             >
                                 <Nav.Link href="/">{t('H')}</Nav.Link>
-                                <Nav.Link href="/writers">{t('Wr')}</Nav.Link>
+                                <Nav.Link href="/directors">{t('DR')}</Nav.Link>
 
                             </Nav>
                             <Button onClick={()=>{i18n.changeLanguage('ru');}} variant="outline-success">Ru</Button>

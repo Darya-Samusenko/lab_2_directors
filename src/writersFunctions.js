@@ -18,10 +18,10 @@ export function addMainVerticalElement(eventDate, firstTitle, secondTitle, parag
     return (
         <VerticalTimelineElement
             className="mainElement"
-            contentStyle = {{ background: '#009e4f', color:'#fff'}}
-            contentArrowStyle = {{ borderRight: '9px solid  #009e4f' }}
+            contentStyle = {{ background: '#a41515', color:'#fff'}}
+            contentArrowStyle = {{ borderRight: '9px solid  #a41515' }}
             date = {eventDate}
-            iconStyle = {{ background: '#009e4f'}}
+            iconStyle = {{ background: '#a41515'}}
         >
             <h3>{firstTitle}</h3>
             <h4>{secondTitle}</h4>
@@ -34,9 +34,9 @@ export function addVerticalElement(eventDate, firstTitle, secondTitle, paragraph
     return (
         <VerticalTimelineElement
             className='commonElement'
-            contentStyle = {{color:'#009e4f'}}
+            contentStyle = {{color:'a41515'}}
             date = {eventDate}
-            iconStyle={{ background: '#009e4f'}}
+            iconStyle={{ background: 'a41515'}}
         >
             <h3>{firstTitle}</h3>
             <h4>{secondTitle}</h4>

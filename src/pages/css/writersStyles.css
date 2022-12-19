@@ -50,23 +50,23 @@ section h1{
     display: block;
     font-size: 25px;
     text-decoration: none;
-    color: #009e4f;
+    color: #a41515;
     padding: 7px 0;
     border-radius: 0 0 1px 1px;
     transition: .3s;
 }
 
 .writerBlock:hover{
-    border-color: #009e4f;
+    border-color: #a41515;
     margin-top: 40px;
     margin-bottom: 60px;
 }
 
 .writerBlock:hover .mainImage{
-    border-color: #009e4f;
+    border-color: #a41515;
 }
 
 .writerBlock a:hover{
-    background: rgba(0, 158, 79, 0.9);
+    background: rgba(164, 21, 21, 0.9);
     color: #fff;
 }
