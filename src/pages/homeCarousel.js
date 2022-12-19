@@ -19,7 +19,7 @@ export default function homeCarousel(){
     const {t} = useTranslation();
         return (
             <section style={{backgroundImage:'url(' + writersBackground + ')'}}>
-                    <div className = 'writerMainI' >
+                    <div className = 'directorDayI' >
                         <h1>{t('p')}</h1>
                         <h2>{t('1r')}</h2>
                         <h2>{t('2r')}</h2>

@@ -1,12 +1,13 @@
 const transResources = {
   ru: {
     translation: {
-      "kolas": "Якуб Колас",
-      "kupala": "Янка Купала",
-      "tank": "Максим Танк",
-      "korotkevich": "Владимир Короткевич",
-      "bogdanovich": "Максим Богданович",
-      "melezh": "Иван Мележ",
+      "arsh": "Эдуард Львович Аршанский",
+      "orlov": "Владимир Александрович Орлов",
+      "ptash": "Михаил Николаевич Пташук",
+      "turov": "Виктор Тимофеевич Туров",
+      "conan": "Александр Кананович",
+      "tsvet": "Юрий Николаевич Цветков",
+
       "nameB": "Максим Богданович",
       "birthB": 'Первенец Вадим родился 6 (18) марта 1890 года, Максим — 27 ноября (9 декабря) 1891 года в 9 часов вечера.',
       "gymnasiumB":  'В 1902 году Максим поступил в Нижегородскую мужскую гимназию. Во время Революции 1905 года принимает участие в ученических и студенческих демонстрациях, за что получает аттестацию «неблагонадёжного ученика».',
@@ -96,24 +97,9 @@ const transResources = {
       "W":'Википедия',
       "DR":'Режиссеры',
       "CM":'Деятель дня',
-      "VM":'Видео о писателе',
-      "PM":'Место деятельности писателе',
-      "LM":'Биография',
-      "VB":'Видео о писателе',
-      "PB":'Место деятельности писателе',
-      "LB":'Биография',
-      "VK":'Видео о писателе',
-      "PK":'Место деятельности писателе',
-      "LK":'Биография',
-      "VKR":'Видео о писателе',
-      "PKR":'Место деятельности писателе',
-      "LKR":'Биография',
-      "VKU":'Видео о писателе',
-      "PKU":'Место деятельности писателе',
-      "LKU":'Биография',
-      "VT":'Видео о писателе',
-      "PT":'Место деятельности писателе',
-      "LT":'Биография',
+      "VI":'Работа',
+      "PL":'Место деятельности',
+      "LT":'Биография и работы',
       "Directors":'Режиссеры',
       "Learn":'Узнать больше',
       "Dasha":'Самусенко Дарья',
@@ -123,12 +109,12 @@ const transResources = {
   },
   en: {
     translation: {
-      "kolas": "Jakub Kolas",
-      "kupala": "Janka Kupala",
-      "tank": "Maksim Tank",
-      "korotkevich": "Uladzimir Korotkevich",
-      "bogdanovich": "Maksim Bogdanovich",
-      "melezh": "Ivan Melezh",
+      "arsh": "Eduard Lvovich Arshansky",
+      "orlov": "Vladimir Alexandrovich Orlov",
+      "ptash": "Mihail Nikolaevich Ptashuk",
+      "turov": "Victor Tsimofeevich Turov",
+      "conan": "Alexandr Cananovich",
+      "tsvet": "Yuriy Nikolaevich Tsvetkov",
       "nameB": "Maksim Bogdanovich",
 
       "birthB": 'The firstborn Vadim was born on March 6 (18), 1890, Maxim — \n' +
@@ -303,6 +289,8 @@ const transResources = {
       "TeM":'Teaching activities',
       "WM":'Place of activity',
       "DM":'Death',
+
+
       "search":'Search',
       "search1":'Search',
       "p":'About portal',
@@ -315,26 +303,9 @@ const transResources = {
       "W":'Wiki',
       "DR":'Directors',
       "CM":'Creator of the day',
-      "VM":'Video about the writer',
-      "PM":'Place of activity',
-      "LM":'Live and creativity',
-      "VB":'Video about the writer',
-      "PB":'Place of activity',
-      "LB":'Biography',
-      "VK":'Video about the writer',
-      "PK":'Place of activity',
-      "LK":'Live and creativity',
-      "VKR":'Video about the writer',
-      "PKR":'Place of activity',
-      "LKR":'Live and creativity',
-      "VKU":'Video about the writer',
-      "PKU":'Place of activity',
-      "LKU":'Live and creativity',
-
-
-      "VT":'Video about the writer',
-      "PT":'Place of activity',
-      "LT":'Biography',
+      "VI":'Work',
+      "PL":'Place of activity',
+      "LT":'Biography and works',
       "Directors":'Directors',
 
 
@@ -342,7 +313,6 @@ const transResources = {
       "Dasha":'Samusenko Darya',
       "Lika":'Shimanskaya Anzhelika',
       "Team":'Team'
-
     }
   }
 };

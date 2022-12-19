@@ -31,12 +31,12 @@ function App() {
                 <Routes>
                     <Route exact path="/" element={<Home/>}/>
                     <Route exact path="/directors" element={<Directors/>}/>
-                    <Route exact path = '/Kupala' element = {<ADir writer = "kupala"/>}/>
-                    <Route exact path = '/Kolas' element = {<ADir writer = "kolas"/>}/>
-                    <Route exact path = '/Tank' element = {<ADir writer = "tank"/>}/>
-                    <Route exact path = '/Korotkevich' element = {<ADir writer = "korotkevich"/>}/>
-                    <Route exact path = '/Bagdanovich' element = {<ADir writer = "bagdanovich"/>}/>
-                    <Route exact path = '/Melez' element = {<ADir writer = "melez"/>}/>
+                    <Route exact path = '/Orlov' element = {<ADir writer = "orlov"/>}/>
+                    <Route exact path = '/Arshanski' element = {<ADir writer = "arsh"/>}/>
+                    <Route exact path = '/Ptashuk' element = {<ADir writer = "ptash"/>}/>
+                    <Route exact path = '/Turov' element = {<ADir writer = "turov"/>}/>
+                    <Route exact path = '/Cananovich' element = {<ADir writer = "conan"/>}/>
+                    <Route exact path = '/Tsvetkov' element = {<ADir writer = "tsvet"/>}/>
                 </Routes>
             </Router>
     </div>

@@ -2,18 +2,18 @@ import React from 'react';
 import {VerticalTimeline} from 'react-vertical-timeline-component'
 import Carousel from 'react-bootstrap/Carousel';
 import { addMainVerticalElement, addVerticalElement, addCarouselImg } from '../drFunctions';
-import kupala from "../accerts/KupalaMain.jpg"
-import kolas from "../accerts/KolasMain.jpg"
-import tank from "../accerts/TankMain.jpg"
-import korotkevich from "../accerts/KorotkevichMain.jpg"
-import bagdanovich from "../accerts/BagdanovichMain.jpg"
-import melez from "../accerts/MelezMain.jpg"
+import orlov from "../accerts/orlovPortrait.jpeg"
+import arsh from "../accerts/arshPortrait.jpg"
+import ptash from "../accerts/ptashukPortrait.jpg"
+import turov from "../accerts/turovPortrait.jpg"
+import conan from "../accerts/cananovichPortrait.jpg"
+import tsvet from "../accerts/tsvetkovPortrait.jpg"
 import drImages from "../components/imagesStruct"
 
 import drBackground from '../accerts/bg.jpg';
 import { useTranslation } from "react-i18next";
 import 'react-vertical-timeline-component/style.min.css'
-import './css/kupalaStyles.css';
+import './css/singlSt.css';
 
 function getDimensions(){
     var dimensions = [];
@@ -45,23 +45,23 @@ function getDimensions(){
 function getDirectorGallery(director){
     var gallery;
     switch(director){
-        case "kupala":
-            gallery = drImages.kupala;
+        case "orlov":
+            gallery = drImages.orlov;
             break;
-        case "kolas":
-            gallery = drImages.kolas;
+        case "arsh":
+            gallery = drImages.arsh;
             break;
-        case "tank":
-            gallery = drImages.tank;
+        case "ptash":
+            gallery = drImages.ptash;
             break;
-        case "korotkevich":
-            gallery = drImages.korotkevich;
+        case "turov":
+            gallery = drImages.turov;
             break;
-        case "bagdanovich":
-            gallery = drImages.bagdanovich;
+        case "conan":
+            gallery = drImages.conan;
             break;
-        case "melez":
-            gallery = drImages.melez;
+        case "tsvet":
+            gallery = drImages.tsvet;
             break;
     }
     return gallery;
@@ -73,47 +73,47 @@ function generalInfo(director){
     var drImg, drName, drLife, drYTLink, drPlaceLink;
     var dimensions = getDimensions();
     var gallery = getDirectorGallery(director);
-    switch(director){
-        case "kupala":
-            drImg = kupala;
-            drName = t('kupalaName');
+    switch(director){//пересмотреть ссылки на кино
+        case "orlov":
+            drImg = orlov;
+            drName = t('orlov');
             drLife = '07.07.1882 - 28.06.1942';
-            drYTLink = 'https://www.youtube.com/embed/9FZehV2qJTk';
+            drYTLink = 'https://youtu.be/embed/01k3OeSD87c';
             drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94163.82319491048!2d27.523329171972176!3d53.8847207981807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e1!3m2!1sru!2sby!4v1669968064361!5m2!1sru!2sby';
             break;
-        case "kolas":
-            drImg = kolas;
-            drName = t('nameK');
-            drLife = '22.10.1882 - 13.08.1956';
-            drYTLink = 'https://www.youtube.com/embed/RoYHoXa5y8Y';
+        case "arsh":
+            drImg = arsh;
+            drName = t('arsh');
+            drLife = ' 25.08.1899-06.07.1974';
+            drYTLink = 'https://youtu.be/embed/AFZKh5iB_xE';
             drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94163.82319491048!2d27.523329171972176!3d53.8847207981807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e1!3m2!1sru!2sby!4v1669968064361!5m2!1sru!2sby';
             break;
-        case "tank":
-            drImg = tank;
-            drName = t('NameT');
+        case "ptash":
+            drImg = ptash;
+            drName = t('ptash');
             drLife = '04.09.1912 - 07.08.1995';
-            drYTLink = 'https://www.youtube.com/embed/3Rt8eu_sdN0';
+            drYTLink = 'https://youtu.be/embed/BQFSmQ2rFRM';
             drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184632.2278305333!2d25.1129524375164!3d54.700802087264194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fb5c6408f5%3A0x400d18c70e9dc40!2z0JLQuNC70YzQvdGO0YEsINCS0LjQu9GM0L3RjtGB0YHQutC-0LUg0LPQvtGA0L7QtNGB0LrQvtC1INGB0LDQvNC-0YPQv9GA0LDQstC70LXQvdC40LUsINCb0LjRgtCy0LA!5e1!3m2!1sru!2sby!4v1669970896912!5m2!1sru!2sby';
             break;
-        case "korotkevich":
-            drImg = korotkevich;
-            drName = t('NameK');
+        case "turov":
+            drImg = turov;
+            drName = t('turov');
             drLife = '26.11.1930 - 25.07.1984';
-            drYTLink = 'https://www.youtube.com/embed/SWRk1_Y6m5w';
+            drYTLink = 'https://youtu.be/embed/f_ThXk82skA';
             drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1726.1680843709175!2d30.43633443725889!3d54.51451144350051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46cfe17e6225f789%3A0x157a89110f221bea!2z0JPQvtGA0L7QtNGB0LrQvtC5INGA0L7QtNC40LvRjNC90YvQuSDQtNC-0Lw!5e1!3m2!1sru!2sby!4v1669974801968!5m2!1sru!2sby';
             break;
-        case "bagdanovich":
-            drImg = bagdanovich;
-            drName = t('nameB');
+        case "conan":
+            drImg = conan;
+            drName = t('conan');
             drLife = '27.11.1891 - 12.05.1917';
-            drYTLink = 'https://www.youtube.com/embed/ASaN7iVmR2I';
+            drYTLink = 'https://youtu.be/embed/CDSw4SjQhBQ';
             drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184632.2278305333!2d25.1129524375164!3d54.700802087264194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fb5c6408f5%3A0x400d18c70e9dc40!2z0JLQuNC70YzQvdGO0YEsINCS0LjQu9GM0L3RjtGB0YHQutC-0LUg0LPQvtGA0L7QtNGB0LrQvtC1INGB0LDQvNC-0YPQv9GA0LDQstC70LXQvdC40LUsINCb0LjRgtCy0LA!5e1!3m2!1sru!2sby!4v1669970896912!5m2!1sru!2sby';
             break;
-        case "melez":
-            drImg = melez;
-            drName = t('NameM');
+        case "tsvet":
+            drImg = tsvet;
+            drName = t('tsvet');
             drLife = '08.02.1921 - 09.08.1976';
-            drYTLink = 'https://www.youtube.com/embed/=NwV8EoU_14M';
+            drYTLink = 'https://youtu.be/embed/xeQYVvKr5Mo';
             drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.9681273179276!2d29.661072334618883!3d51.93453491480222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88cecd7b6c3df812!2zNTHCsDU2JzA0LjMiTiAyOcKwMzknNTYuMCJF!5e0!3m2!1sru!2sby!4v1670265588423!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
             break;
     }
@@ -125,7 +125,7 @@ function generalInfo(director){
                     <h2>{drName}</h2>
                     <p>{drLife}</p>
                     <div className='googleContainer'>
-                        <h3>{t('VB')}</h3>
+                        <h3>{t('VI')}</h3>
                         <iframe
                             allowFullScreen = {true}
                             allow = 'accelerator'
@@ -133,7 +133,7 @@ function generalInfo(director){
                             className='ytEmbed'
                             style={{width: dimensions[2] + '%',height: dimensions[3] + 'px'}}
                             src = {'' + drYTLink}/>
-                        <h3>{t('PB')}</h3>
+                        <h3>{t('PL')}</h3>
                         <div className='mapContainer' style={{width: dimensions[2] + '%',height: dimensions[3] + 'px'}}>
                             <iframe src = {drPlaceLink} frameborder="0" style={{border: 0, borderRadius:'5px', width:'100%', height:'100%'}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                         </div>
@@ -157,7 +157,7 @@ function directorTimeline(director){
     const {t} = useTranslation();
     var timeline;
     switch(director){
-        case "kupala":
+        case "orlov":
             timeline = (
                 <VerticalTimeline lineColor='#fff'>
                     {addMainVerticalElement('07.07.1882', (t('birthday')), '', t('kupalaChildhood'))}
@@ -169,7 +169,7 @@ function directorTimeline(director){
                 </VerticalTimeline>
             );
             break;
-        case "kolas":
+        case "arsh":
             timeline = (
                 <VerticalTimeline lineColor='#fff'>
                     {addMainVerticalElement('22.10.1882', (t('bK')), '', t('birthK'))}
@@ -180,7 +180,7 @@ function directorTimeline(director){
                 </VerticalTimeline>
             );
             break;
-        case "tank":
+        case "ptash":
             timeline = (
                 <VerticalTimeline lineColor='#fff'>
                     {addMainVerticalElement('04.09.1912', (t('bT')), '', t('BirthT'))}
@@ -192,7 +192,7 @@ function directorTimeline(director){
                 </VerticalTimeline>
             );
             break;
-        case "korotkevich":
+        case "turov":
             timeline = (
                 <VerticalTimeline lineColor='#fff'>
                     {addMainVerticalElement('26.11.1930', (t('BK')), '', t('BirthK'))}
@@ -203,7 +203,7 @@ function directorTimeline(director){
                 </VerticalTimeline>
             );
             break;
-        case "bagdanovich":
+        case "conan":
             timeline = (
                 <VerticalTimeline lineColor='#fff'>
                     {addMainVerticalElement('27.11.1891', (t('dayB')), '', t('birthB'))}
@@ -215,7 +215,7 @@ function directorTimeline(director){
                 </VerticalTimeline>
             );
             break;
-        case "melez":
+        case "tsvet":
             timeline = (
                 <VerticalTimeline lineColor='#fff'>
                     {addMainVerticalElement('08.02.1921', (t('BM')), '', t('BirthM'))}

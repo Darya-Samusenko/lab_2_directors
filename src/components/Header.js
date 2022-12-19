@@ -6,22 +6,22 @@ import i18n from "i18next";
 export default function Header(){
     const chooseWriter = (name) => {
         switch(name){
-            case t('kolas'):
+            case t('arsh'):
                 window.open('/Kolas', '_self', 'noopener,noreferrer');
                 break;
-            case t('kupala'):
+            case t('orlov'):
                 window.open('/Kupala', '_self', 'noopener,noreferrer');
                 break;
-            case t('tank'):
+            case t('ptash'):
                 window.open('/Tank', '_self', 'noopener,noreferrer');
                 break;
-            case t('korotkevich'):
+            case t('turov'):
                 window.open('/Korotkevich', '_self', 'noopener,noreferrer');
                 break;
-            case t('bogdanovich'):
+            case t('conan'):
                 window.open('/Bagdanovich', '_self', 'noopener,noreferrer');
                 break;
-            case t('melezh'):
+            case t('tsvet'):
                 window.open('/Melez', '_self', 'noopener,noreferrer');
                 break;    
         }
@@ -57,12 +57,12 @@ export default function Header(){
                                     id = "searchBox"
                                 />
                                 <datalist id = "directorsList">
-                                    <option>{t('kolas')}</option>
-                                    <option>{t('kupala')}</option>
-                                    <option>{t('tank')}</option>
-                                    <option>{t('korotkevich')}</option>
-                                    <option>{t('bogdanovich')}</option>
-                                    <option>{t('melezh')}</option>
+                                    <option>{t('arsh')}</option>
+                                    <option>{t('orlov')}</option>
+                                    <option>{t('ptash')}</option>
+                                    <option>{t('turov')}</option>
+                                    <option>{t('conan')}</option>
+                                    <option>{t('tsvet')}</option>
                                 </datalist>
                                 <Button onClick = {() => chooseWriter(document.getElementById('searchBox').value)} variant="outline-success">{t('search')}</Button>
                             </Form>

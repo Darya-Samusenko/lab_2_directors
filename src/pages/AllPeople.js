@@ -1,16 +1,16 @@
 import React from 'react';
 
 import drBackground from '../accerts/bg.jpg';
-import kupalaImg from '../accerts/KupalaMain.jpg';
-import kolasImg from '../accerts/KolasMain.jpg';
-import korotkevichImg from '../accerts/KorotkevichMain.jpg';
-import tankImg from '../accerts/TankMain.jpg';
-import bagdanovichImg from '../accerts/BagdanovichMain.jpg';
-import melezImg from '../accerts/MelezMain.jpg'
+import orlovImg from '../accerts/orlovPortrait.jpeg';
+import arshImg from '../accerts/arshPortrait.jpg';
+import ptashImg from '../accerts/ptashukPortrait.jpg';
+import turovImg from '../accerts/turovPortrait.jpg';
+import conanImg from '../accerts/cananovichPortrait.jpg';
+import tsvetImg from '../accerts/tsvetkovPortrait.jpg'
 
 import { useTranslation } from "react-i18next";
 
-import './css/writersStyles.css'
+import './css/dirSt.css'
 
 function drBlock(name, lifetime, image, link){
     // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -47,12 +47,12 @@ export default function Directors(){
             }}>
                 <h1>{t('Directors')}</h1>
                 <div className = 'directorsContainer'>
-                    {drBlock(t('kupala'), '(1882 - 1942)', kupalaImg, 'Kupala')}
-                    {drBlock(t('kolas'), '(1882 - 1956)', kolasImg, 'Kolas')}
-                    {drBlock(t('tank'), '(1912 - 1995)', tankImg, 'Tank')}
-                    {drBlock(t('korotkevich'), '(1930 - 1984)', korotkevichImg, 'Korotkevich')}
-                    {drBlock(t('bogdanovich'), '(1891 - 1917)', bagdanovichImg, 'Bagdanovich')}
-                    {drBlock(t('melezh'), '(1921 - 1976)', melezImg, 'Melez')}
+                    {drBlock(t('orlov'), '(1882 - 1942)', orlovImg, 'Orlov')}
+                    {drBlock(t('arsh'), '(1899 - 1974)', arshImg, 'Arshanski')}
+                    {drBlock(t('ptash'), '(1912 - 1995)', ptashImg, 'Ptashuk')}
+                    {drBlock(t('turov'), '(1930 - 1984)', turovImg, 'Turov')}
+                    {drBlock(t('conan'), '(1891 - 1917)', conanImg, 'Cananovich')}
+                    {drBlock(t('tsvet'), '(1921 - 1976)', tsvetImg, 'Tsvetkov')}
                 </div>
             </section>
         </>

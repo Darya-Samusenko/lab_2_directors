@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import AWriter from "../pages/OneDirector";
+import ADir from "../pages/OneDirector";
 import HomeCarousel from "../pages/homeCarousel";
 
 
@@ -9,7 +9,7 @@ class CarouselBox extends Component {
         return (
             <div>
                 <HomeCarousel/>
-                <AWriter writer = "melez"/>
+                <ADir writer = "arsh"/>
             </div>
         );
     }

@@ -7,19 +7,19 @@ section{
     text-align: center;
 }
 
-.writerMainI{
+.directorDayI{
     background: rgba(0, 0, 0, 0.5);
     border: 0px solid #000000;
     padding: 50px 0 50px;
 
 }
 
-.writerMainI h1{
+.directorDayI h1{
     color: #ffffff;
     font-size: 40px;
 }
 
-.writerMainI h2{
+.directorDayI h2{
     color: #ffffff;
     font-size: 25px;
 }
