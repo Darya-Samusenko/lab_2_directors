@@ -1,20 +1,9 @@
 import {VerticalTimelineElement} from 'react-vertical-timeline-component'
 import {CarouselItem} from 'react-bootstrap'
 
-export function addCarouselImg(image, itemHeight, width){
-    var imgHeight;
-    width === ''? imgHeight = 640 : imgHeight = '';
-    return(
-        <CarouselItem className = 'writerItem' style = {{
-            height: itemHeight + 'px'
-        }}>
-            <img src = {image} width = {width + '%'} height = {imgHeight + 'px'}/>
-        </CarouselItem>
-    );
-}
 
 export function addMainVerticalElement(eventDate, firstTitle, secondTitle, paragraph){
-    
+
     return (
         <VerticalTimelineElement
             className="mainElement"
@@ -44,3 +33,16 @@ export function addVerticalElement(eventDate, firstTitle, secondTitle, paragraph
         </VerticalTimelineElement>
     );
 }
+
+export function addCarouselImg(image, itemHeight, width){
+    var imgHeight;
+    width === ''? imgHeight = 640 : imgHeight = '';
+    return(
+        <CarouselItem className = 'writerItem' style = {{
+            height: itemHeight + 'px'
+        }}>
+            <img src = {image} width = {width + '%'} height = {imgHeight + 'px'}/>
+        </CarouselItem>
+    );
+}
+

@@ -6,7 +6,7 @@ section{
     background-size: cover;
 }
 
-.writerMainInfoBlock{
+.drMainInfoBlock{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@ section{
     flex-wrap: wrap;
 }
 
-.writerMainInfoBlock img{
+.drMainInfoBlock img{
     display: block;
     width: 40%;
     border-radius: 5px;
@@ -22,26 +22,26 @@ section{
     transition: .3s;
 }
 
-.writerMainInfoBlock img:hover{
+.drMainInfoBlock img:hover{
     border-color: #a41515;
 }
 
-.writerMainInfo{
+.directorInfo{
     margin: 0 25px;
     width: 50%;
 }
 
-.writerMainInfo p{
+.directorInfo p{
     font-size: 21px;
     font-weight: 600;
     color: #ffffff;
 
 }
-.writerMainInfo h2{
+.directorInfo h2{
     color: #ffffff;
 }
 
-.writerMainInfo h3{
+.directorInfo h3{
     color: #ffffff;
 }
 

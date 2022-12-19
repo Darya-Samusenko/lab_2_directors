@@ -1,14 +1,14 @@
 import React from 'react';
 import {VerticalTimeline} from 'react-vertical-timeline-component'
 import Carousel from 'react-bootstrap/Carousel';
-import { addMainVerticalElement, addVerticalElement, addCarouselImg } from '../writersFunctions';
+import { addMainVerticalElement, addVerticalElement, addCarouselImg } from '../drFunctions';
 import kupala from "../accerts/KupalaMain.jpg"
 import kolas from "../accerts/KolasMain.jpg"
 import tank from "../accerts/TankMain.jpg"
 import korotkevich from "../accerts/KorotkevichMain.jpg"
 import bagdanovich from "../accerts/BagdanovichMain.jpg"
 import melez from "../accerts/MelezMain.jpg"
-import writersImages from "../components/imagesStruct"
+import drImages from "../components/imagesStruct"
 
 import drBackground from '../accerts/bg.jpg';
 import { useTranslation } from "react-i18next";
@@ -46,22 +46,22 @@ function getDirectorGallery(director){
     var gallery;
     switch(director){
         case "kupala":
-            gallery = writersImages.kupala;
+            gallery = drImages.kupala;
             break;
         case "kolas":
-            gallery = writersImages.kolas;
+            gallery = drImages.kolas;
             break;
         case "tank":
-            gallery = writersImages.tank;
+            gallery = drImages.tank;
             break;
         case "korotkevich":
-            gallery = writersImages.korotkevich;
+            gallery = drImages.korotkevich;
             break;
         case "bagdanovich":
-            gallery = writersImages.bagdanovich;
+            gallery = drImages.bagdanovich;
             break;
         case "melez":
-            gallery = writersImages.melez;
+            gallery = drImages.melez;
             break;
     }
     return gallery;
@@ -119,9 +119,9 @@ function generalInfo(director){
     }
     return(
         <>
-            <div className = 'writerMainInfoBlock'>
+            <div className = 'drMainInfoBlock'>
                 <img alt = 'Writer' src = {drImg} style = {{width: dimensions[0] + '%', height: dimensions[1] + 'px'}}/>
-                <div className = 'writerMainInfo' style={{width: dimensions[0] + '%'}}>
+                <div className = 'directorInfo' style={{width: dimensions[0] + '%'}}>
                     <h2>{drName}</h2>
                     <p>{drLife}</p>
                     <div className='googleContainer'>
@@ -230,7 +230,7 @@ function directorTimeline(director){
     return timeline;
 }
 
-export default function rightWriters(props){
+export default function rightDirectors(props){
     return (
         <section style={{backgroundImage:'url(' + drBackground + ')'}}>
             {generalInfo(props.writer)}

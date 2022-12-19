@@ -11,7 +11,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import transResources from './components/transl'
 
 import Home from "./pages/Home";
-import AWriter from "./pages/OneDirector"
+import ADir from "./pages/OneDirector"
 import Directors from "./pages/AllPeople";
 
 i18n
@@ -31,12 +31,12 @@ function App() {
                 <Routes>
                     <Route exact path="/" element={<Home/>}/>
                     <Route exact path="/directors" element={<Directors/>}/>
-                    <Route exact path = '/Kupala' element = {<AWriter writer = "kupala"/>}/>
-                    <Route exact path = '/Kolas' element = {<AWriter writer = "kolas"/>}/>
-                    <Route exact path = '/Tank' element = {<AWriter writer = "tank"/>}/>
-                    <Route exact path = '/Korotkevich' element = {<AWriter writer = "korotkevich"/>}/>
-                    <Route exact path = '/Bagdanovich' element = {<AWriter writer = "bagdanovich"/>}/>
-                    <Route exact path = '/Melez' element = {<AWriter writer = "melez"/>}/>
+                    <Route exact path = '/Kupala' element = {<ADir writer = "kupala"/>}/>
+                    <Route exact path = '/Kolas' element = {<ADir writer = "kolas"/>}/>
+                    <Route exact path = '/Tank' element = {<ADir writer = "tank"/>}/>
+                    <Route exact path = '/Korotkevich' element = {<ADir writer = "korotkevich"/>}/>
+                    <Route exact path = '/Bagdanovich' element = {<ADir writer = "bagdanovich"/>}/>
+                    <Route exact path = '/Melez' element = {<ADir writer = "melez"/>}/>
                 </Routes>
             </Router>
     </div>

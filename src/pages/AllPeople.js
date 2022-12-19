@@ -1,6 +1,6 @@
 import React from 'react';
 
-import writersBackground from '../accerts/bg.jpg';
+import drBackground from '../accerts/bg.jpg';
 import kupalaImg from '../accerts/KupalaMain.jpg';
 import kolasImg from '../accerts/KolasMain.jpg';
 import korotkevichImg from '../accerts/KorotkevichMain.jpg';
@@ -43,7 +43,7 @@ export default function Directors(){
     return (
         <>
             <section style = {{
-                backgroundImage: 'url(' + writersBackground + ')',
+                backgroundImage: 'url(' + drBackground + ')',
             }}>
                 <h1>{t('Directors')}</h1>
                 <div className = 'directorsContainer'>
