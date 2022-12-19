@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import AWriter from "../pages/AWriter";
+import AWriter from "../pages/OneDirector";
 import HomeCarousel from "../pages/homeCarousel";
 
 

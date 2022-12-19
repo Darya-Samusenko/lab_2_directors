@@ -11,9 +11,8 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import transResources from './components/transl'
 
 import Home from "./pages/Home";
-import AWriter from "./pages/AWriter"
-import Writers from "./pages/Writers";
-import Directors from "./pages/Writers";
+import AWriter from "./pages/OneDirector"
+import Directors from "./pages/AllPeople";
 
 i18n
 .use(initReactI18next)

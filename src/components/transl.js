@@ -98,27 +98,26 @@ const transResources = {
       "CM":'Деятель дня',
       "VM":'Видео о писателе',
       "PM":'Место деятельности писателе',
-      "LM":'Жизнь и творчество',
+      "LM":'Биография',
       "VB":'Видео о писателе',
       "PB":'Место деятельности писателе',
-      "LB":'Жизнь и творчество',
+      "LB":'Биография',
       "VK":'Видео о писателе',
       "PK":'Место деятельности писателе',
-      "LK":'Жизнь и творчество',
+      "LK":'Биография',
       "VKR":'Видео о писателе',
       "PKR":'Место деятельности писателе',
-      "LKR":'Жизнь и творчество',
+      "LKR":'Биография',
       "VKU":'Видео о писателе',
       "PKU":'Место деятельности писателе',
-      "LKU":'Жизнь и творчество',
+      "LKU":'Биография',
       "VT":'Видео о писателе',
       "PT":'Место деятельности писателе',
-      "LT":'Жизнь и творчество',
+      "LT":'Биография',
       "Directors":'Режиссеры',
       "Learn":'Узнать больше',
       "Dasha":'Самусенко Дарья',
       "Lika":'Шиманская Анжелика',
-      "Sergey":'Витушко Сергей',
       "Team":'Команда'
     }
   },
@@ -321,7 +320,7 @@ const transResources = {
       "LM":'Live and creativity',
       "VB":'Video about the writer',
       "PB":'Place of activity',
-      "LB":'Live and creativity',
+      "LB":'Biography',
       "VK":'Video about the writer',
       "PK":'Place of activity',
       "LK":'Live and creativity',
@@ -331,14 +330,17 @@ const transResources = {
       "VKU":'Video about the writer',
       "PKU":'Place of activity',
       "LKU":'Live and creativity',
+
+
       "VT":'Video about the writer',
       "PT":'Place of activity',
-      "LT":'Live and creativity',
+      "LT":'Biography',
       "Directors":'Directors',
+
+
       "Learn":'Learn more',
       "Dasha":'Samusenko Darya',
       "Lika":'Shimanskaya Anzhelika',
-      "Sergey":'Vitushko Sergey',
       "Team":'Team'
 
     }

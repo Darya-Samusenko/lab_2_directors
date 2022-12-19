@@ -56,7 +56,7 @@ export default function Header(){
                                     list="writersList"
                                     id = "searchBox"
                                 />
-                                <datalist id = "writersList">
+                                <datalist id = "directorsList">
                                     <option>{t('kolas')}</option>
                                     <option>{t('kupala')}</option>
                                     <option>{t('tank')}</option>

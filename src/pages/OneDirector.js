@@ -140,7 +140,7 @@ function generalInfo(director){
                     </div>
                 </div>
             </div>
-            <h2 className='carouselTitle'>{t('LB')}</h2>
+            <h2 className='carouselTitle'>{t('LT')}</h2>
             <Carousel>
                 {addCarouselImg(gallery[0], dimensions[5], dimensions[4])}
                 {addCarouselImg(gallery[1], dimensions[5], dimensions[4])}
