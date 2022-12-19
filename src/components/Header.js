@@ -31,7 +31,7 @@ export default function Header(){
             <>
                 <Navbar bg="light" expand="lg">
                     <Container fluid>
-                        <Navbar.Brand href="#">{t('W')}</Navbar.Brand>
+                        <Navbar.Brand href="https://be.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D1%8D%D0%B3%D0%BE%D1%80%D1%8B%D1%8F:%D0%9A%D1%96%D0%BD%D0%B0%D1%80%D1%8D%D0%B6%D1%8B%D1%81%D1%91%D1%80%D1%8B_%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%96">{t('W')}</Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
                             <Nav
@@ -53,7 +53,7 @@ export default function Header(){
                                     placeholder={t('search1')}
                                     className="me-1"
                                     aria-label="Search"
-                                    list="writersList"
+                                    list="directorsList"
                                     id = "searchBox"
                                 />
                                 <datalist id = "directorsList">

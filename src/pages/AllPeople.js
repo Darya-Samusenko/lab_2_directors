@@ -47,12 +47,12 @@ export default function Directors(){
             }}>
                 <h1>{t('Directors')}</h1>
                 <div className = 'directorsContainer'>
-                    {drBlock(t('orlov'), '(1882 - 1942)', orlovImg, 'Orlov')}
-                    {drBlock(t('arsh'), '(1899 - 1974)', arshImg, 'Arshanski')}
-                    {drBlock(t('ptash'), '(1912 - 1995)', ptashImg, 'Ptashuk')}
-                    {drBlock(t('turov'), '(1930 - 1984)', turovImg, 'Turov')}
-                    {drBlock(t('conan'), '(1891 - 1917)', conanImg, 'Cananovich')}
-                    {drBlock(t('tsvet'), '(1921 - 1976)', tsvetImg, 'Tsvetkov')}
+                    {drBlock(t('orlov'), '(1938-...)', orlovImg, 'Orlov')}
+                    {drBlock(t('arsh'), '(1899-1974)', arshImg, 'Arshanski')}
+                    {drBlock(t('ptash'), '(1943-2002)', ptashImg, 'Ptashuk')}
+                    {drBlock(t('turov'), '(1936-1996)', turovImg, 'Turov')}
+                    {drBlock(t('conan'), '(1977-...)', conanImg, 'Cananovich')}
+                    {drBlock(t('tsvet'), '(1941-2011)', tsvetImg, 'Tsvetkov')}
                 </div>
             </section>
         </>

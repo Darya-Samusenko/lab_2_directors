@@ -73,14 +73,14 @@ section{
     color: #a41515;
 }
 
-.writerItem{
+.drItem{
     width: 100%;
     text-align: center;
     align-items: center;
     background: rgba(60, 60, 60, 0.5);
 }
 
-.writerItem img{
+.drItem img{
     display: block;
     margin: 0 auto;
     position: relative;

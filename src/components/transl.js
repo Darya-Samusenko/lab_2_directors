@@ -1,7 +1,7 @@
 const transResources = {
   ru: {
     translation: {
-      "arsh": "Эдуард Львович Аршанский",
+      "arsh": "Эдуард Львович Оршанский",
       "orlov": "Владимир Александрович Орлов",
       "ptash": "Михаил Николаевич Пташук",
       "turov": "Виктор Тимофеевич Туров",
@@ -109,7 +109,7 @@ const transResources = {
   },
   en: {
     translation: {
-      "arsh": "Eduard Lvovich Arshansky",
+      "arsh": "Eduard Lvovich Orshansky",
       "orlov": "Vladimir Alexandrovich Orlov",
       "ptash": "Mihail Nikolaevich Ptashuk",
       "turov": "Victor Tsimofeevich Turov",

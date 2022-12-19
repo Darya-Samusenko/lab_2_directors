@@ -77,7 +77,7 @@ function generalInfo(director){
         case "orlov":
             drImg = orlov;
             drName = t('orlov');
-            drLife = '07.07.1882 - 28.06.1942';
+            drLife = '06.01.1938–...';
             drYTLink = 'https://youtu.be/embed/01k3OeSD87c';
             drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94163.82319491048!2d27.523329171972176!3d53.8847207981807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e1!3m2!1sru!2sby!4v1669968064361!5m2!1sru!2sby';
             break;
@@ -91,28 +91,28 @@ function generalInfo(director){
         case "ptash":
             drImg = ptash;
             drName = t('ptash');
-            drLife = '04.09.1912 - 07.08.1995';
+            drLife = '28.01.1943–26.04.2002';
             drYTLink = 'https://youtu.be/embed/BQFSmQ2rFRM';
             drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184632.2278305333!2d25.1129524375164!3d54.700802087264194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fb5c6408f5%3A0x400d18c70e9dc40!2z0JLQuNC70YzQvdGO0YEsINCS0LjQu9GM0L3RjtGB0YHQutC-0LUg0LPQvtGA0L7QtNGB0LrQvtC1INGB0LDQvNC-0YPQv9GA0LDQstC70LXQvdC40LUsINCb0LjRgtCy0LA!5e1!3m2!1sru!2sby!4v1669970896912!5m2!1sru!2sby';
             break;
         case "turov":
             drImg = turov;
             drName = t('turov');
-            drLife = '26.11.1930 - 25.07.1984';
+            drLife = '25.10.1936-31.10.1996';
             drYTLink = 'https://youtu.be/embed/f_ThXk82skA';
             drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1726.1680843709175!2d30.43633443725889!3d54.51451144350051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46cfe17e6225f789%3A0x157a89110f221bea!2z0JPQvtGA0L7QtNGB0LrQvtC5INGA0L7QtNC40LvRjNC90YvQuSDQtNC-0Lw!5e1!3m2!1sru!2sby!4v1669974801968!5m2!1sru!2sby';
             break;
         case "conan":
             drImg = conan;
             drName = t('conan');
-            drLife = '27.11.1891 - 12.05.1917';
+            drLife = '05.08.1977–...';
             drYTLink = 'https://youtu.be/embed/CDSw4SjQhBQ';
             drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184632.2278305333!2d25.1129524375164!3d54.700802087264194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fb5c6408f5%3A0x400d18c70e9dc40!2z0JLQuNC70YzQvdGO0YEsINCS0LjQu9GM0L3RjtGB0YHQutC-0LUg0LPQvtGA0L7QtNGB0LrQvtC1INGB0LDQvNC-0YPQv9GA0LDQstC70LXQvdC40LUsINCb0LjRgtCy0LA!5e1!3m2!1sru!2sby!4v1669970896912!5m2!1sru!2sby';
             break;
         case "tsvet":
             drImg = tsvet;
             drName = t('tsvet');
-            drLife = '08.02.1921 - 09.08.1976';
+            drLife = '14.02.1941-25.01.2011';
             drYTLink = 'https://youtu.be/embed/xeQYVvKr5Mo';
             drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.9681273179276!2d29.661072334618883!3d51.93453491480222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88cecd7b6c3df812!2zNTHCsDU2JzA0LjMiTiAyOcKwMzknNTYuMCJF!5e0!3m2!1sru!2sby!4v1670265588423!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
             break;
@@ -233,8 +233,8 @@ function directorTimeline(director){
 export default function rightDirectors(props){
     return (
         <section style={{backgroundImage:'url(' + drBackground + ')'}}>
-            {generalInfo(props.writer)}
-            {directorTimeline(props.writer)}
+            {generalInfo(props.person)}
+            {directorTimeline(props.person)}
         </section>
     );
 }

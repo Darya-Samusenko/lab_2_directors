@@ -9,7 +9,7 @@ class CarouselBox extends Component {
         return (
             <div>
                 <HomeCarousel/>
-                <ADir writer = "arsh"/>
+                <ADir person = "arsh"/>
             </div>
         );
     }
