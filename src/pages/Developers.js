@@ -4,7 +4,6 @@ import 'react-vertical-timeline-component/style.min.css'
 import './css/developersStyle.css'
 import Dasha from '../accerts/d.jpg';
 import Sasha from '../accerts/s.jpg';
-import Sergey from '../accerts/sergey.jpg';
 import {useTranslation} from "react-i18next";
 
 export default function homeCarousel(){
@@ -19,7 +18,6 @@ export default function homeCarousel(){
         }
         mainImgHeight = mainImgWidth / 100 * window.innerWidth / 1080 * 1015;
         return (
-
                 <section style={{backgroundImage:'url(' + writersBackground + ')'}}>
                     <div className = 'writerMainInformation' >
                         <h2>{t('Team')}</h2>
@@ -28,23 +26,16 @@ export default function homeCarousel(){
                         <div className="col-lg-4">
                             <img src={Dasha}/>
                             <h2 className="fw-normal">{t('Dasha')}</h2>
-                            <p><a href="https://github.com/Murzik1234">Murzik1234</a></p>
+                            <p><a href="https://github.com/Darya-Samusenko">Darya-Samusenko</a></p>
 
                         </div>
 
                         <div className="col-lg-4">
                             <img src={Sasha}/>
-                            <h2 className="fw-normal">{t('Sasha')}</h2>
-                            <p><a href="https://github.com/CinderAle">CinderAle</a></p>
+                            <h2 className="fw-normal">{t('Lika')}</h2>
+                            <p><a href="https://github.com/Lika10001">Lika10001</a></p>
 
                         </div>
-
-                        <div className="col-lg-4">
-                            <img src={Sergey}/>
-                            <h2 className="fw-normal">{t('Sergey')}</h2>
-                            <p><a href="https://github.com/NotYM">NotYM</a></p>
-                        </div>
-
                     </div>
                 </section>
         )

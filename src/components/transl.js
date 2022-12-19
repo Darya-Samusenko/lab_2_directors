@@ -116,8 +116,8 @@ const transResources = {
       "LT":'Жизнь и творчество',
       "Writers":'Писатели',
       "Learn":'Узнать больше',
-      "Dasha":'Зайцева Дарья',
-      "Sasha":'Александр Струков',
+      "Dasha":'Самусенко Дарья',
+      "Lika":'Шиманская Анжелика',
       "Sergey":'Витушко Сергей',
       "Team":'Команда'
     }
@@ -336,8 +336,8 @@ const transResources = {
       "LT":'Live and creativity',
       "Writers":'Writers',
       "Learn":'Learn more',
-      "Dasha":'Zaitsava Darya',
-      "Sasha":'Alexandr Strukov',
+      "Dasha":'Samusenko Darya',
+      "Lika":'Shimanskaya Anzhelika',
       "Sergey":'Vitushko Sergey',
       "Team":'Team'
 
