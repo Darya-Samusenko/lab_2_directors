@@ -10,7 +10,7 @@ import bagdanovich from "../accerts/BagdanovichMain.jpg"
 import melez from "../accerts/MelezMain.jpg"
 import writersImages from "../components/imagesStruct"
 
-import writersBackground from '../accerts/bg.jpg';
+import drBackground from '../accerts/bg.jpg';
 import { useTranslation } from "react-i18next";
 import 'react-vertical-timeline-component/style.min.css'
 import './css/kupalaStyles.css';
@@ -42,9 +42,9 @@ function getDimensions(){
     return dimensions
 }
 
-function getWriterGallery(writer){
+function getDirectorGallery(director){
     var gallery;
-    switch(writer){
+    switch(director){
         case "kupala":
             gallery = writersImages.kupala;
             break;
@@ -67,63 +67,63 @@ function getWriterGallery(writer){
     return gallery;
 }
 
-function generalInfo(writer){
+function generalInfo(director){
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const {t} = useTranslation();
-    var writerImg, writerName, writerLife, writerYTLink, writerPlaceLink;
+    var drImg, drName, drLife, drYTLink, drPlaceLink;
     var dimensions = getDimensions();
-    var gallery = getWriterGallery(writer);
-    switch(writer){
+    var gallery = getDirectorGallery(director);
+    switch(director){
         case "kupala":
-            writerImg = kupala;
-            writerName = t('kupalaName');
-            writerLife = '07.07.1882 - 28.06.1942';
-            writerYTLink = 'https://www.youtube.com/embed/9FZehV2qJTk';
-            writerPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94163.82319491048!2d27.523329171972176!3d53.8847207981807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e1!3m2!1sru!2sby!4v1669968064361!5m2!1sru!2sby';
+            drImg = kupala;
+            drName = t('kupalaName');
+            drLife = '07.07.1882 - 28.06.1942';
+            drYTLink = 'https://www.youtube.com/embed/9FZehV2qJTk';
+            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94163.82319491048!2d27.523329171972176!3d53.8847207981807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e1!3m2!1sru!2sby!4v1669968064361!5m2!1sru!2sby';
             break;
         case "kolas":
-            writerImg = kolas;
-            writerName = t('nameK');
-            writerLife = '22.10.1882 - 13.08.1956';
-            writerYTLink = 'https://www.youtube.com/embed/RoYHoXa5y8Y';
-            writerPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94163.82319491048!2d27.523329171972176!3d53.8847207981807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e1!3m2!1sru!2sby!4v1669968064361!5m2!1sru!2sby';
+            drImg = kolas;
+            drName = t('nameK');
+            drLife = '22.10.1882 - 13.08.1956';
+            drYTLink = 'https://www.youtube.com/embed/RoYHoXa5y8Y';
+            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94163.82319491048!2d27.523329171972176!3d53.8847207981807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e1!3m2!1sru!2sby!4v1669968064361!5m2!1sru!2sby';
             break;
         case "tank":
-            writerImg = tank;
-            writerName = t('NameT');
-            writerLife = '04.09.1912 - 07.08.1995';
-            writerYTLink = 'https://www.youtube.com/embed/3Rt8eu_sdN0';
-            writerPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184632.2278305333!2d25.1129524375164!3d54.700802087264194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fb5c6408f5%3A0x400d18c70e9dc40!2z0JLQuNC70YzQvdGO0YEsINCS0LjQu9GM0L3RjtGB0YHQutC-0LUg0LPQvtGA0L7QtNGB0LrQvtC1INGB0LDQvNC-0YPQv9GA0LDQstC70LXQvdC40LUsINCb0LjRgtCy0LA!5e1!3m2!1sru!2sby!4v1669970896912!5m2!1sru!2sby';
+            drImg = tank;
+            drName = t('NameT');
+            drLife = '04.09.1912 - 07.08.1995';
+            drYTLink = 'https://www.youtube.com/embed/3Rt8eu_sdN0';
+            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184632.2278305333!2d25.1129524375164!3d54.700802087264194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fb5c6408f5%3A0x400d18c70e9dc40!2z0JLQuNC70YzQvdGO0YEsINCS0LjQu9GM0L3RjtGB0YHQutC-0LUg0LPQvtGA0L7QtNGB0LrQvtC1INGB0LDQvNC-0YPQv9GA0LDQstC70LXQvdC40LUsINCb0LjRgtCy0LA!5e1!3m2!1sru!2sby!4v1669970896912!5m2!1sru!2sby';
             break;
         case "korotkevich":
-            writerImg = korotkevich;
-            writerName = t('NameK');
-            writerLife = '26.11.1930 - 25.07.1984';
-            writerYTLink = 'https://www.youtube.com/embed/SWRk1_Y6m5w';
-            writerPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1726.1680843709175!2d30.43633443725889!3d54.51451144350051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46cfe17e6225f789%3A0x157a89110f221bea!2z0JPQvtGA0L7QtNGB0LrQvtC5INGA0L7QtNC40LvRjNC90YvQuSDQtNC-0Lw!5e1!3m2!1sru!2sby!4v1669974801968!5m2!1sru!2sby';
+            drImg = korotkevich;
+            drName = t('NameK');
+            drLife = '26.11.1930 - 25.07.1984';
+            drYTLink = 'https://www.youtube.com/embed/SWRk1_Y6m5w';
+            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1726.1680843709175!2d30.43633443725889!3d54.51451144350051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46cfe17e6225f789%3A0x157a89110f221bea!2z0JPQvtGA0L7QtNGB0LrQvtC5INGA0L7QtNC40LvRjNC90YvQuSDQtNC-0Lw!5e1!3m2!1sru!2sby!4v1669974801968!5m2!1sru!2sby';
             break;
         case "bagdanovich":
-            writerImg = bagdanovich;
-            writerName = t('nameB');
-            writerLife = '27.11.1891 - 12.05.1917';
-            writerYTLink = 'https://www.youtube.com/embed/ASaN7iVmR2I';
-            writerPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184632.2278305333!2d25.1129524375164!3d54.700802087264194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fb5c6408f5%3A0x400d18c70e9dc40!2z0JLQuNC70YzQvdGO0YEsINCS0LjQu9GM0L3RjtGB0YHQutC-0LUg0LPQvtGA0L7QtNGB0LrQvtC1INGB0LDQvNC-0YPQv9GA0LDQstC70LXQvdC40LUsINCb0LjRgtCy0LA!5e1!3m2!1sru!2sby!4v1669970896912!5m2!1sru!2sby';
+            drImg = bagdanovich;
+            drName = t('nameB');
+            drLife = '27.11.1891 - 12.05.1917';
+            drYTLink = 'https://www.youtube.com/embed/ASaN7iVmR2I';
+            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184632.2278305333!2d25.1129524375164!3d54.700802087264194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fb5c6408f5%3A0x400d18c70e9dc40!2z0JLQuNC70YzQvdGO0YEsINCS0LjQu9GM0L3RjtGB0YHQutC-0LUg0LPQvtGA0L7QtNGB0LrQvtC1INGB0LDQvNC-0YPQv9GA0LDQstC70LXQvdC40LUsINCb0LjRgtCy0LA!5e1!3m2!1sru!2sby!4v1669970896912!5m2!1sru!2sby';
             break;
         case "melez":
-            writerImg = melez;
-            writerName = t('NameM');
-            writerLife = '08.02.1921 - 09.08.1976';
-            writerYTLink = 'https://www.youtube.com/embed/=NwV8EoU_14M';
-            writerPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.9681273179276!2d29.661072334618883!3d51.93453491480222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88cecd7b6c3df812!2zNTHCsDU2JzA0LjMiTiAyOcKwMzknNTYuMCJF!5e0!3m2!1sru!2sby!4v1670265588423!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
+            drImg = melez;
+            drName = t('NameM');
+            drLife = '08.02.1921 - 09.08.1976';
+            drYTLink = 'https://www.youtube.com/embed/=NwV8EoU_14M';
+            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.9681273179276!2d29.661072334618883!3d51.93453491480222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88cecd7b6c3df812!2zNTHCsDU2JzA0LjMiTiAyOcKwMzknNTYuMCJF!5e0!3m2!1sru!2sby!4v1670265588423!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
             break;
     }
     return(
         <>
             <div className = 'writerMainInfoBlock'>
-                <img alt = 'Writer' src = {writerImg} style = {{width: dimensions[0] + '%', height: dimensions[1] + 'px'}}/>
+                <img alt = 'Writer' src = {drImg} style = {{width: dimensions[0] + '%', height: dimensions[1] + 'px'}}/>
                 <div className = 'writerMainInfo' style={{width: dimensions[0] + '%'}}>
-                    <h2>{writerName}</h2>
-                    <p>{writerLife}</p>
+                    <h2>{drName}</h2>
+                    <p>{drLife}</p>
                     <div className='googleContainer'>
                         <h3>{t('VB')}</h3>
                         <iframe
@@ -132,10 +132,10 @@ function generalInfo(writer){
                             loading = 'lazy'
                             className='ytEmbed'
                             style={{width: dimensions[2] + '%',height: dimensions[3] + 'px'}}
-                            src = {'' + writerYTLink}/>
+                            src = {'' + drYTLink}/>
                         <h3>{t('PB')}</h3>
                         <div className='mapContainer' style={{width: dimensions[2] + '%',height: dimensions[3] + 'px'}}>
-                            <iframe src = {writerPlaceLink} frameborder="0" style={{border: 0, borderRadius:'5px', width:'100%', height:'100%'}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            <iframe src = {drPlaceLink} frameborder="0" style={{border: 0, borderRadius:'5px', width:'100%', height:'100%'}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                         </div>
                     </div>
                 </div>
@@ -152,11 +152,11 @@ function generalInfo(writer){
     );
 }
 
-function writerTimeline(writer){
+function directorTimeline(director){
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const {t} = useTranslation();
     var timeline;
-    switch(writer){
+    switch(director){
         case "kupala":
             timeline = (
                 <VerticalTimeline lineColor='#fff'>
@@ -232,9 +232,9 @@ function writerTimeline(writer){
 
 export default function rightWriters(props){
     return (
-        <section style={{backgroundImage:'url(' + writersBackground + ')'}}>
+        <section style={{backgroundImage:'url(' + drBackground + ')'}}>
             {generalInfo(props.writer)}
-            {writerTimeline(props.writer)}
+            {directorTimeline(props.writer)}
         </section>
     );
 }

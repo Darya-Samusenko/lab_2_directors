@@ -12,7 +12,7 @@ import { useTranslation } from "react-i18next";
 
 import './css/writersStyles.css'
 
-function writerBlock(name, lifetime, image, link){
+function drBlock(name, lifetime, image, link){
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const {t} = useTranslation();
     var blockWidth;
@@ -20,7 +20,7 @@ function writerBlock(name, lifetime, image, link){
     var imgHeight = window.innerWidth * blockWidth / 100 * 350 / 412;
     console.log(imgHeight);
     return (<div
-        className = 'writerBlock'
+        className = 'drBlock'
         style = {{
             width: blockWidth + '%', 
         }}
@@ -38,7 +38,7 @@ function writerBlock(name, lifetime, image, link){
         </div>);
 }
 
-export default function Writers(){
+export default function Directors(){
     const {t} = useTranslation();
     return (
         <>
@@ -46,13 +46,13 @@ export default function Writers(){
                 backgroundImage: 'url(' + writersBackground + ')',
             }}>
                 <h1>{t('Directors')}</h1>
-                <div className = 'writersContainer'>
-                    {writerBlock(t('kupala'), '(1882 - 1942)', kupalaImg, 'Kupala')}
-                    {writerBlock(t('kolas'), '(1882 - 1956)', kolasImg, 'Kolas')}
-                    {writerBlock(t('tank'), '(1912 - 1995)', tankImg, 'Tank')}
-                    {writerBlock(t('korotkevich'), '(1930 - 1984)', korotkevichImg, 'Korotkevich')}
-                    {writerBlock(t('bogdanovich'), '(1891 - 1917)', bagdanovichImg, 'Bagdanovich')}
-                    {writerBlock(t('melezh'), '(1921 - 1976)', melezImg, 'Melez')}
+                <div className = 'directorsContainer'>
+                    {drBlock(t('kupala'), '(1882 - 1942)', kupalaImg, 'Kupala')}
+                    {drBlock(t('kolas'), '(1882 - 1956)', kolasImg, 'Kolas')}
+                    {drBlock(t('tank'), '(1912 - 1995)', tankImg, 'Tank')}
+                    {drBlock(t('korotkevich'), '(1930 - 1984)', korotkevichImg, 'Korotkevich')}
+                    {drBlock(t('bogdanovich'), '(1891 - 1917)', bagdanovichImg, 'Bagdanovich')}
+                    {drBlock(t('melezh'), '(1921 - 1976)', melezImg, 'Melez')}
                 </div>
             </section>
         </>

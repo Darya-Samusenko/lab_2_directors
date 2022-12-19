@@ -13,6 +13,7 @@ import transResources from './components/transl'
 import Home from "./pages/Home";
 import AWriter from "./pages/AWriter"
 import Writers from "./pages/Writers";
+import Directors from "./pages/Writers";
 
 i18n
 .use(initReactI18next)
@@ -30,7 +31,7 @@ function App() {
      <Router>
                 <Routes>
                     <Route exact path="/" element={<Home/>}/>
-                    <Route exact path="/directors" element={<Writers/>}/>
+                    <Route exact path="/directors" element={<Directors/>}/>
                     <Route exact path = '/Kupala' element = {<AWriter writer = "kupala"/>}/>
                     <Route exact path = '/Kolas' element = {<AWriter writer = "kolas"/>}/>
                     <Route exact path = '/Tank' element = {<AWriter writer = "tank"/>}/>

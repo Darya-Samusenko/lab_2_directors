@@ -9,7 +9,7 @@ section h1{
     color: #fff;
 }
 
-.writersContainer{
+.directorsContainer{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@ section h1{
     margin: 0 auto;
 }
 
-.writerBlock{
+.drBlock{
     background: rgba(212, 212, 212, 0.9);
     margin: 50px 25px;
     text-align: center;
@@ -35,18 +35,18 @@ section h1{
     border-bottom: 2px solid #333;
 }
 
-.writerBlock h2{
+.drBlock h2{
     display: flex;
     height: 77px;
     align-items: center;
     justify-content: center;
 }
 
-.writerBlock p{
+.drBlock p{
     font-size: 21px;
 }
 
-.writerBlock a{
+.drBlock a{
     display: block;
     font-size: 25px;
     text-decoration: none;
@@ -56,17 +56,17 @@ section h1{
     transition: .3s;
 }
 
-.writerBlock:hover{
+.drBlock:hover{
     border-color: #a41515;
     margin-top: 40px;
     margin-bottom: 60px;
 }
 
-.writerBlock:hover .mainImage{
+.drBlock:hover .mainImage{
     border-color: #a41515;
 }
 
-.writerBlock a:hover{
+.drBlock a:hover{
     background: rgba(164, 21, 21, 0.9);
     color: #fff;
 }
