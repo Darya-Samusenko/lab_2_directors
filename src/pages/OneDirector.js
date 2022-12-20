@@ -160,69 +160,64 @@ function directorTimeline(director){
         case "orlov":
             timeline = (
                 <VerticalTimeline lineColor='#fff'>
-                    {addMainVerticalElement('07.07.1882', (t('birthday')), '', t('kupalaChildhood'))}
-                    {addVerticalElement('1903 - 1904', (t('fbK')), '', t('kupalaPublications'))}
-                    {addVerticalElement('1909 - 1915', (t('stK')), '', t('kupalaEducation'))}
-                    {addVerticalElement('1916', (t('mobK')), '', t('kupalaMobilization'))}
-                    {addVerticalElement('1922 - 1940', (t('awK')), '', t('kupalaAfterWar'))}
-                    {addMainVerticalElement('28.06.1942', (t('dK')), '', t('kupalaDeath'))}
+                    {addMainVerticalElement('1938', (t('OrTLT1')), '', t('OrTL1'))}
+                    {addVerticalElement('1958', (t('OrTLT2')), '', t('OrTL2'))}
+                    {addVerticalElement('1971', (t('OrTLT3')), '', t('OrTL3'))}
                 </VerticalTimeline>
             );
             break;
         case "arsh":
             timeline = (
                 <VerticalTimeline lineColor='#fff'>
-                    {addMainVerticalElement('22.10.1882', (t('bK')), '', t('birthK'))}
-                    {addVerticalElement('1908 - 1914', (t('ftK')), '', t('teachingK'))}
-                    {addVerticalElement('1912 - 1918', (t('tK')), '', t('placeK'))}
-                    {addVerticalElement('05.1921', (t('pk')), '', t('publicationsK'))}
-                    {addMainVerticalElement('13.08.1956', (t('deK')), '', t('deathK'))}
+                    {addMainVerticalElement('1917-1927', (t('ArTLT1')), '', t('ArTL1'))}
+                    {addVerticalElement('1931', (t('ArTLT2')), '', t('ArTL2'))}
+                    {addVerticalElement('1941-1947', (t('ArTLT3')), '', t('ArTL3'))}
+                    {addVerticalElement('1950', (t('ArTLT4')), '', t('ArTL4'))}
+
                 </VerticalTimeline>
             );
             break;
         case "ptash":
             timeline = (
                 <VerticalTimeline lineColor='#fff'>
-                    {addMainVerticalElement('04.09.1912', (t('bT')), '', t('BirthT'))}
-                    {addVerticalElement('1929', (t('sT')), '', t('SchoolT'))}
-                    {addVerticalElement('1936', (t('fT')), '', t('PublicationsT'))}
-                    {addVerticalElement('1940 - 1966', (t('aT')), '', t('ActivityT'))}
-                    {addVerticalElement('1965 - 1972', (t('pT')), '', t('PoliticsT'))}
-                    {addMainVerticalElement('07.08.1995', (t('dT')), '', t('DeathT'))}
+                    {addMainVerticalElement('1967', (t('PtTLT1')), '', t('PtTL1'))}
+                    {addVerticalElement('1982-1986', (t('PtTLT2')), '', t('PtTL2'))}
+                    {addVerticalElement('1982,1990', (t('PtTLT3')), '', t('PtTL3'))}
+                    {addVerticalElement('2002', (t('PtTLT4')), '', t('PtTL4'))}
+
                 </VerticalTimeline>
             );
             break;
         case "turov":
             timeline = (
                 <VerticalTimeline lineColor='#fff'>
-                    {addMainVerticalElement('26.11.1930', (t('BK')), '', t('BirthK'))}
-                    {addVerticalElement('1941 - 1944', (t('WK')), '', t('EvacuationK'))}
-                    {addVerticalElement('1951', (t('DK')), '', t('DebuteK'))}
-                    {addVerticalElement('1954 - 1958', (t('WdK')), '', t('JobK'))}
-                    {addMainVerticalElement('25.07.1984', (t('DeK')), '', t('DeathK'))}
+                    {addMainVerticalElement('1936', (t('TuTLT1')), '', t('TuTL1'))}
+                    {addVerticalElement('1959', (t('TuTLT2')), '', t('TuTL2'))}
+                    {addVerticalElement('1989-1996', (t('TuTLT3')), '', t('TuTL3'))}
+                    {addVerticalElement('1996', (t('TuTLT4')), '', t('TuTL4'))}
+
                 </VerticalTimeline>
             );
             break;
         case "conan":
             timeline = (
                 <VerticalTimeline lineColor='#fff'>
-                    {addMainVerticalElement('27.11.1891', (t('dayB')), '', t('birthB'))}
-                    {addVerticalElement('1902 - 1911', (t('studyB')), '', t('gymnasiumB'))}
-                    {addVerticalElement('1907', (t('creatB')), '', t('publicationsB'))}
-                    {addVerticalElement('1911 - 1916', (t('studyLB')), '', t('lyceumB'))}
-                    {addVerticalElement('1916', (t('laB')), '', t('lastYearB'))}
-                    {addMainVerticalElement('12.05.1917', (t('deadB')), '', t('deathB'))}
+                    {addMainVerticalElement('1999', (t('CaTLT1')), '', t('CaTL1'))}
+                    {addVerticalElement('2004', (t('CaTLT2')), '', t('CaTL2'))}
+                    {addVerticalElement('2004', (t('CaTLT3')), '', t('CaTL3'))}
+                    {addVerticalElement('2005', (t('CaTLT4')), '', t('CaTL4'))}
+
                 </VerticalTimeline>
             );
             break;
         case "tsvet":
             timeline = (
                 <VerticalTimeline lineColor='#fff'>
-                    {addMainVerticalElement('08.02.1921', (t('BM')), '', t('BirthM'))}
-                    {addVerticalElement('1939 - 1944', (t('TM')), '', t('PublicationsM'))}
-                    {addVerticalElement('1938 - 1945', (t('TeM')), '', t('TeachingM'))}
-                    {addVerticalElement('05.1921', (t('WM')), '', t('Place'))}
-                    {addMainVerticalElement('09.08.1976', (t('DM')), '', t('DeathM'))}
+                    {addMainVerticalElement('1941', (t('TsTLT1')), '', t('TsTL1'))}
+                    {addVerticalElement('1963', (t('TsTLT2')), '', t('TsTL2'))}
+                    {addVerticalElement('1969', (t('TsTLT3')), '', t('TsTL3'))}
+                    {addVerticalElement('2001', (t('TsTLT4')), '', t('TsTL4'))}
+                    {addMainVerticalElement('2011', (t('TsTLT5')), '', t('TsTL5'))}
                 </VerticalTimeline>
             );
             break;
