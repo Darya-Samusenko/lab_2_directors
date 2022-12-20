@@ -78,43 +78,43 @@ function generalInfo(director){
             drImg = orlov;
             drName = t('orlov');
             drLife = '06.01.1938–...';
-            drYTLink = 'https://youtu.be/embed/01k3OeSD87c';
-            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94163.82319491048!2d27.523329171972176!3d53.8847207981807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e1!3m2!1sru!2sby!4v1669968064361!5m2!1sru!2sby';
+            drYTLink = 'https://www.youtube.com/embed/01k3OeSD87c';
+            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2976.278786684815!2d27.62296673943626!3d53.91945341684696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcefc3d89e9fb%3A0x1913bc096413dba4!2z0J3QsNGG0LjQvtC90LDQu9GM0L3QsNGPINCT0L7RgdGD0LTQsNGA0YHRgtCy0LXQvdC90LDRjyDQotC10LvQtdGA0LDQtNC40L7QutC-0LzQv9Cw0L3QuNGPINCg0JE!5e0!3m2!1sru!2sby!4v1671541404257!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
             break;
         case "arsh":
             drImg = arsh;
             drName = t('arsh');
             drLife = ' 25.08.1899-06.07.1974';
-            drYTLink = 'https://youtu.be/embed/AFZKh5iB_xE';
-            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94163.82319491048!2d27.523329171972176!3d53.8847207981807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e1!3m2!1sru!2sby!4v1669968064361!5m2!1sru!2sby';
+            drYTLink = 'https://www.youtube.com/embed/AFZKh5iB_xE';
+            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.4839783728185!2d30.294947316096422!3d59.92411098187091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469630e3681edd4b%3A0x1634df03f5257b6c!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LPRgdC60LDRjyDRgdGC0YPQtNC40Y8g0LTQvtC60YPQvNC10L3RgtCw0LvRjNC90YvRhSDRhNC40LvRjNC80L7Qsg!5e0!3m2!1sru!2sby!4v1671541303732!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
             break;
         case "ptash":
             drImg = ptash;
             drName = t('ptash');
             drLife = '28.01.1943–26.04.2002';
-            drYTLink = 'https://youtu.be/embed/BQFSmQ2rFRM';
-            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184632.2278305333!2d25.1129524375164!3d54.700802087264194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fb5c6408f5%3A0x400d18c70e9dc40!2z0JLQuNC70YzQvdGO0YEsINCS0LjQu9GM0L3RjtGB0YHQutC-0LUg0LPQvtGA0L7QtNGB0LrQvtC1INGB0LDQvNC-0YPQv9GA0LDQstC70LXQvdC40LUsINCb0LjRgtCy0LA!5e1!3m2!1sru!2sby!4v1669970896912!5m2!1sru!2sby';
+            drYTLink = 'https://www.youtube.com/embed/BQFSmQ2rFRM';
+            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.239809397617!2d27.624927988854964!3d53.92748330000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcee2457f0057%3A0x5305a7b8f6b5a3b0!2z0JHQtdC70LDRgNGD0YHRjNGE0LjQu9GM0Lw!5e0!3m2!1sru!2sby!4v1671541529005!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
             break;
         case "turov":
             drImg = turov;
             drName = t('turov');
             drLife = '25.10.1936-31.10.1996';
-            drYTLink = 'https://youtu.be/embed/f_ThXk82skA';
-            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1726.1680843709175!2d30.43633443725889!3d54.51451144350051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46cfe17e6225f789%3A0x157a89110f221bea!2z0JPQvtGA0L7QtNGB0LrQvtC5INGA0L7QtNC40LvRjNC90YvQuSDQtNC-0Lw!5e1!3m2!1sru!2sby!4v1669974801968!5m2!1sru!2sby';
+            drYTLink = 'https://www.youtube.com/embed/f_ThXk82skA';
+            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.239809397617!2d27.624927988854964!3d53.92748330000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcee2457f0057%3A0x5305a7b8f6b5a3b0!2z0JHQtdC70LDRgNGD0YHRjNGE0LjQu9GM0Lw!5e0!3m2!1sru!2sby!4v1671541529005!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
             break;
         case "conan":
             drImg = conan;
             drName = t('conan');
             drLife = '05.08.1977–...';
-            drYTLink = 'https://youtu.be/embed/CDSw4SjQhBQ';
-            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184632.2278305333!2d25.1129524375164!3d54.700802087264194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fb5c6408f5%3A0x400d18c70e9dc40!2z0JLQuNC70YzQvdGO0YEsINCS0LjQu9GM0L3RjtGB0YHQutC-0LUg0LPQvtGA0L7QtNGB0LrQvtC1INGB0LDQvNC-0YPQv9GA0LDQstC70LXQvdC40LUsINCb0LjRgtCy0LA!5e1!3m2!1sru!2sby!4v1669970896912!5m2!1sru!2sby';
+            drYTLink = 'https://www.youtube.com/embed/CDSw4SjQhBQ';
+            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.239809397617!2d27.624927988854964!3d53.92748330000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcee2457f0057%3A0x5305a7b8f6b5a3b0!2z0JHQtdC70LDRgNGD0YHRjNGE0LjQu9GM0Lw!5e0!3m2!1sru!2sby!4v1671541529005!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
             break;
         case "tsvet":
             drImg = tsvet;
             drName = t('tsvet');
             drLife = '14.02.1941-25.01.2011';
-            drYTLink = 'https://youtu.be/embed/xeQYVvKr5Mo';
-            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.9681273179276!2d29.661072334618883!3d51.93453491480222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88cecd7b6c3df812!2zNTHCsDU2JzA0LjMiTiAyOcKwMzknNTYuMCJF!5e0!3m2!1sru!2sby!4v1670265588423!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
+            drYTLink = 'https://www.youtube.com/embed/xeQYVvKr5Mo';
+            drPlaceLink = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.239809397617!2d27.624927988854964!3d53.92748330000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcee2457f0057%3A0x5305a7b8f6b5a3b0!2z0JHQtdC70LDRgNGD0YHRjNGE0LjQu9GM0Lw!5e0!3m2!1sru!2sby!4v1671541529005!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade';
             break;
     }
     return(

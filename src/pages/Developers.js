@@ -23,19 +23,21 @@ export default function homeCarousel(){
                         <h2>{t('Team')}</h2>
                     </div>
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className = "col-shift"></div>
+                        <div className="col-dev">
                             <img src={Dasha}/>
                             <h2 className="fw-normal">{t('Dasha')}</h2>
                             <p><a href="https://github.com/Darya-Samusenko">Darya-Samusenko</a></p>
                             <p>loneluna@mail.ru</p>
                         </div>
 
-                        <div className="col-lg-4">
+                        <div className="col-dev">
                             <img src={Lika}/>
                             <h2 className="fw-normal">{t('Lika')}</h2>
                             <p><a href="https://github.com/Lika10001">Lika10001</a></p>
                             <p>likashim7@gmail.com</p>
                         </div>
+
                     </div>
                 </section>
         )

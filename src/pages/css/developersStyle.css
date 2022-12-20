@@ -12,12 +12,23 @@ section{
     font-size: 25px;
 }
 
-.col-lg-4  a{
+.col-dev{
+    width:25%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    margin-top: 5%;
+}
+
+.col-dev  a{
     text-decoration: none;
     color: white;
 }
 
 .row{
     width: 100%;
+}
+
+.col-shift{
+    width:20%;
 }
 

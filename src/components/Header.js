@@ -7,22 +7,22 @@ export default function Header(){
     const chooseWriter = (name) => {
         switch(name){
             case t('arsh'):
-                window.open('/Kolas', '_self', 'noopener,noreferrer');
+                window.open('/Arshanski', '_self', 'noopener,noreferrer');
                 break;
             case t('orlov'):
-                window.open('/Kupala', '_self', 'noopener,noreferrer');
+                window.open('/Orlov', '_self', 'noopener,noreferrer');
                 break;
             case t('ptash'):
-                window.open('/Tank', '_self', 'noopener,noreferrer');
+                window.open('/Ptashuk', '_self', 'noopener,noreferrer');
                 break;
             case t('turov'):
-                window.open('/Korotkevich', '_self', 'noopener,noreferrer');
+                window.open('/Turov', '_self', 'noopener,noreferrer');
                 break;
             case t('conan'):
-                window.open('/Bagdanovich', '_self', 'noopener,noreferrer');
+                window.open('/Cananovich', '_self', 'noopener,noreferrer');
                 break;
             case t('tsvet'):
-                window.open('/Melez', '_self', 'noopener,noreferrer');
+                window.open('/Tsvetkov', '_self', 'noopener,noreferrer');
                 break;    
         }
     }
