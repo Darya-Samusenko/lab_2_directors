@@ -39,7 +39,7 @@ export default function Header(){
                                 style={{ maxHeight: '100px' }}
                                 navbarScroll
                             >
-                                <Nav.Link href="/">{t('H')}</Nav.Link>
+                                <Nav.Link href="lab_2_directors/">{t('H')}</Nav.Link>
                                 <Nav.Link href="lab_2_directors/directors">{t('DR')}</Nav.Link>
 
                             </Nav>
