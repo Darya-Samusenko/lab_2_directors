@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/lab_2_directors/static/css/main.4f43015d.css",
+    "main.js": "/lab_2_directors/static/js/main.922ca523.js",
+    "static/js/787.858e52bd.chunk.js": "/lab_2_directors/static/js/787.858e52bd.chunk.js",
+    "static/media/bg.jpg": "/lab_2_directors/static/media/bg.cd53acfef5cea88df64f.jpg",
+    "static/media/2.jpeg": "/lab_2_directors/static/media/2.dbed6ae9ea133e657783.jpeg",
+    "static/media/5.jpg": "/lab_2_directors/static/media/5.00a91ed020b661e1e321.jpg",
+    "static/media/1.jpg": "/lab_2_directors/static/media/1.7c511d254bd99c11ca0e.jpg",
+    "static/media/3.jpg": "/lab_2_directors/static/media/3.51720b0b96b132ff1612.jpg",
+    "static/media/turovPortrait.jpg": "/lab_2_directors/static/media/turovPortrait.b64dcb2948fcf3f5ff5f.jpg",
+    "static/media/4.jpg": "/lab_2_directors/static/media/4.cf7aad52b8df54748e83.jpg",
+    "static/media/orlovPortrait.jpeg": "/lab_2_directors/static/media/orlovPortrait.8380d6a95e4aea79e994.jpeg",
+    "static/media/2.jpg": "/lab_2_directors/static/media/2.1827d8cc7496be49201d.jpg",
+    "static/media/cananovichPortrait.jpg": "/lab_2_directors/static/media/cananovichPortrait.e1f89de5fde8f0ee9d2f.jpg",
+    "static/media/1.png": "/lab_2_directors/static/media/1.a706af9ba31346b94fcc.png",
+    "static/media/5.jpeg": "/lab_2_directors/static/media/5.808c04ff6e4b0ea69472.jpeg",
+    "static/media/ptashukPortrait.jpg": "/lab_2_directors/static/media/ptashukPortrait.fedc590831c9e9fad754.jpg",
+    "static/media/d.jpg": "/lab_2_directors/static/media/d.f5c25fb2060476396ce5.jpg",
+    "static/media/1.jpeg": "/lab_2_directors/static/media/1.a477f8c4a9c262525f0f.jpeg",
+    "static/media/s.jpg": "/lab_2_directors/static/media/s.17533ab4278bd1d752c7.jpg",
+    "static/media/tsvetkovPortrait.jpg": "/lab_2_directors/static/media/tsvetkovPortrait.c939c6766934727c3f8d.jpg",
+    "index.html": "/lab_2_directors/index.html",
+    "main.4f43015d.css.map": "/lab_2_directors/static/css/main.4f43015d.css.map",
+    "main.922ca523.js.map": "/lab_2_directors/static/js/main.922ca523.js.map",
+    "787.858e52bd.chunk.js.map": "/lab_2_directors/static/js/787.858e52bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f43015d.css",
+    "static/js/main.922ca523.js"
+  ]
+}
