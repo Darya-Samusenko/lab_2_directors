@@ -7,22 +7,22 @@ export default function Header(){
     const chooseWriter = (name) => {
         switch(name){
             case t('arsh'):
-                window.open('lab_2_directors/Arshanski', '_self', 'noopener,noreferrer');
+                window.open('/Arshanski', '_self', 'noopener,noreferrer');
                 break;
             case t('orlov'):
-                window.open('lab_2_directors/Orlov', '_self', 'noopener,noreferrer');
+                window.open('/Orlov', '_self', 'noopener,noreferrer');
                 break;
             case t('ptash'):
-                window.open('lab_2_directors/Ptashuk', '_self', 'noopener,noreferrer');
+                window.open('/Ptashuk', '_self', 'noopener,noreferrer');
                 break;
             case t('turov'):
-                window.open('lab_2_directors/Turov', '_self', 'noopener,noreferrer');
+                window.open('/Turov', '_self', 'noopener,noreferrer');
                 break;
             case t('conan'):
-                window.open('lab_2_directors/Cananovich', '_self', 'noopener,noreferrer');
+                window.open('/Cananovich', '_self', 'noopener,noreferrer');
                 break;
             case t('tsvet'):
-                window.open('lab_2_directors/Tsvetkov', '_self', 'noopener,noreferrer');
+                window.open('/Tsvetkov', '_self', 'noopener,noreferrer');
                 break;    
         }
     }
@@ -39,8 +39,8 @@ export default function Header(){
                                 style={{ maxHeight: '100px' }}
                                 navbarScroll
                             >
-                                <Nav.Link href="lab_2_directors/">{t('H')}</Nav.Link>
-                                <Nav.Link href="lab_2_directors/directors">{t('DR')}</Nav.Link>
+                                <Nav.Link href="/">{t('H')}</Nav.Link>
+                                <Nav.Link href="/directors">{t('DR')}</Nav.Link>
 
                             </Nav>
                             <Button onClick={()=>{i18n.changeLanguage('ru');}} variant="outline-success">Ru</Button>

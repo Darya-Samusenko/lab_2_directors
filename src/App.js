@@ -28,14 +28,15 @@ function App() {
      <Header/>
      <Router>
                 <Routes>
-                    <Route exact path= "lab_2_directors/" element={<Home/>}/>
-                    <Route exact path= "lab_2_directors/directors" element={<Directors/>}/>
-                    <Route exact path = 'lab_2_directors/Orlov' element = {<ADir person = "orlov"/>}/>
-                    <Route exact path = 'lab_2_directors/Arshanski' element = {<ADir person = "arsh"/>}/>
-                    <Route exact path = 'lab_2_directors/Ptashuk' element = {<ADir person = "ptash"/>}/>
-                    <Route exact path = 'lab_2_directors/Turov' element = {<ADir person = "turov"/>}/>
-                    <Route exact path = 'lab_2_directors/Cananovich' element = {<ADir person = "conan"/>}/>
-                    <Route exact path = 'lab_2_directors/Tsvetkov' element = {<ADir person = "tsvet"/>}/>
+                    <Route exact path= "/" element={<Home/>}/>
+                    <Route exact path= "/lab_2_directors" element={<Home/>}/>
+                    <Route exact path= "/directors" element={<Directors/>}/>
+                    <Route exact path = '/Orlov' element = {<ADir person = "orlov"/>}/>
+                    <Route exact path = '/Arshanski' element = {<ADir person = "arsh"/>}/>
+                    <Route exact path = '/Ptashuk' element = {<ADir person = "ptash"/>}/>
+                    <Route exact path = '/Turov' element = {<ADir person = "turov"/>}/>
+                    <Route exact path = '/Cananovich' element = {<ADir person = "conan"/>}/>
+                    <Route exact path = '/Tsvetkov' element = {<ADir person = "tsvet"/>}/>
                 </Routes>
             </Router>
     </div>
