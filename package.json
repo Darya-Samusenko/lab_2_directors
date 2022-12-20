@@ -2,7 +2,7 @@
   "name": "lab2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://darya-samusenko.github.io/lab_2_directors/",
+  "homepage": "https://darya-samusenko.github.io/lab_2_directors",
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.1.35",
     "@testing-library/jest-dom": "^5.16.5",
